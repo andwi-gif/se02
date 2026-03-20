@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-api-drift-lab"
+version = "0.1.0"
+description = "End-to-end benchmark harness for quantum API drift in LLM-generated code across Qiskit and PennyLane."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "OpenAI"}]
+license = {text = "MIT"}
+dependencies = [
+  "gradio>=6.0.0",
+  "matplotlib>=3.8.0",
+  "numpy>=1.26.0",
+  "packaging>=24.0",
+  "pandas>=2.1.0",
+  "plotly>=5.18.0",
+  "pyyaml>=6.0.0",
+  "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+quantum = [
+  "qiskit>=0.45,<3",
+  "pennylane>=0.32,<0.45",
+]
+dev = [
+  "pytest>=8.0.0",
+  "pytest-cov>=4.0.0",
+]
+
+[project.scripts]
+qdrift = "quantum_api_drift_lab.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
