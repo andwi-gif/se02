@@ -1,0 +1,3 @@
+source_url: https://docs.pennylane.ai/en/stable/news/new_opmath.html
+summary: After a period of deprecation, the legacy behaviour for operators was removed in PennyLane 0.40. Anyone using the latest PennyLane will automatically use the updated operator arithmetic.
+retrieval_terms: pennylane 0.40 removed legacy operator arithmetic updated opmath migration

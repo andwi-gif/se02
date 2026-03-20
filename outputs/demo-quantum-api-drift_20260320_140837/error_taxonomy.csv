@@ -1,0 +1,14 @@
+sdk,model,strategy,error_category,count
+pennylane,Qwen/Qwen2.5-Coder-32B-Instruct,rag_docs,Semantic runtime error,3
+pennylane,Qwen/Qwen2.5-Coder-32B-Instruct,rag_docs,Deprecated API,2
+pennylane,Qwen/Qwen2.5-Coder-32B-Instruct,vanilla,Deprecated API,4
+pennylane,Qwen/Qwen2.5-Coder-32B-Instruct,vanilla,Semantic runtime error,3
+pennylane,gpt-5,rag_docs,Deprecated API,2
+pennylane,gpt-5,vanilla,Deprecated API,2
+qiskit,Qwen/Qwen2.5-Coder-32B-Instruct,rag_docs,Signature mismatch,1
+qiskit,Qwen/Qwen2.5-Coder-32B-Instruct,vanilla,Missing or renamed symbol,4
+qiskit,Qwen/Qwen2.5-Coder-32B-Instruct,vanilla,Module relocation,4
+qiskit,Qwen/Qwen2.5-Coder-32B-Instruct,vanilla,Signature mismatch,1
+qiskit,gpt-5,rag_docs,Module relocation,2
+qiskit,gpt-5,vanilla,Missing or renamed symbol,2
+qiskit,gpt-5,vanilla,Module relocation,2

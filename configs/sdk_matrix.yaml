@@ -1,0 +1,29 @@
+qiskit:
+  - version: 0.45.3
+    python: "3.10"
+    pip:
+      - qiskit==0.45.3
+      - qiskit-aer==0.14.2
+  - version: 1.0.2
+    python: "3.10"
+    pip:
+      - qiskit==1.0.2
+      - qiskit-aer==0.14.2
+  - version: 2.0.3
+    python: "3.11"
+    pip:
+      - qiskit==2.0.3
+      - qiskit-aer==0.17.1
+pennylane:
+  - version: 0.32.0
+    python: "3.10"
+    pip:
+      - pennylane==0.32.0
+  - version: 0.35.1
+    python: "3.11"
+    pip:
+      - pennylane==0.35.1
+  - version: 0.44.1
+    python: "3.11"
+    pip:
+      - pennylane==0.44.1

@@ -1,0 +1,3 @@
+source_url: https://quantum.cloud.ibm.com/docs/en/api/qiskit/release-notes/0.45
+summary: Qiskit 0.45 is the first release after the legacy elements structure was completely removed. It also warns that pre-1.0 packaging conflicts with Qiskit 1.0 and later.
+retrieval_terms: qiskit 0.45 release notes packaging elements removed qiskit 1.0 migration

@@ -1,0 +1,9 @@
+sdk,target_version,eval_version,model,rag_docs,rewrite_baseline,vanilla,rag_gain,rewrite_gain
+pennylane,0.32.0,0.35.1,Qwen/Qwen2.5-Coder-32B-Instruct,0.0,0.0,0.5,1.0,1.0
+pennylane,0.32.0,0.35.1,gpt-5,0.0,0.0,0.5,1.0,1.0
+pennylane,0.32.0,0.44.1,Qwen/Qwen2.5-Coder-32B-Instruct,0.0,0.0,0.5,1.0,1.0
+pennylane,0.32.0,0.44.1,gpt-5,0.0,0.0,0.5,1.0,1.0
+qiskit,0.45.3,1.0.2,Qwen/Qwen2.5-Coder-32B-Instruct,0.0,0.0,1.0,1.0,1.0
+qiskit,0.45.3,1.0.2,gpt-5,0.0,0.0,1.0,1.0,1.0
+qiskit,0.45.3,2.0.3,Qwen/Qwen2.5-Coder-32B-Instruct,0.0,0.0,1.0,1.0,1.0
+qiskit,0.45.3,2.0.3,gpt-5,0.0,0.0,1.0,1.0,1.0

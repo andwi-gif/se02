@@ -1,0 +1,24 @@
+rules:
+  - id: qiskit_aer_import_migration
+    sdk: qiskit
+    applies_when_code_contains:
+      - "LEGACY_AER_EXECUTE"
+    target_versions: ["1.0.2", "2.0.3"]
+    replacement_template: qiskit_modern_aer_simulator
+    rationale: "Replace removed qiskit.Aer import with qiskit_aer-based simulator usage."
+
+  - id: qiskit_qasm_method_migration
+    sdk: qiskit
+    applies_when_code_contains:
+      - "LEGACY_QASM_METHOD"
+    target_versions: ["1.0.2", "2.0.3"]
+    replacement_template: qiskit_modern_qasm2
+    rationale: "Replace removed QuantumCircuit.qasm() calls with qasm2.dumps()."
+
+  - id: pennylane_expval_cost_removal
+    sdk: pennylane
+    applies_when_code_contains:
+      - "LEGACY_EXPVAL_COST"
+    target_versions: ["0.35.1", "0.44.1"]
+    replacement_template: pennylane_modern_qnode_cost
+    rationale: "Replace removed qml.ExpvalCost with a QNode that returns qml.expval()."

@@ -1,0 +1,3 @@
+source_url: https://pennylane.ai/blog/2023/08/pennylane-release-0.32
+summary: PennyLane 0.32 introduced new features for datasets, block encoding, logging, and qubit resetting. This demo uses it as the pre-drift baseline for older code patterns.
+retrieval_terms: pennylane 0.32 baseline older api code patterns

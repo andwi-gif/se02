@@ -1,0 +1,3 @@
+source_url: https://docs.pennylane.ai/en/stable/development/release_notes.html
+summary: PennyLane 0.44.1 is the current release in the documentation. The release notes and deprecations pages capture active compatibility changes and bug fixes.
+retrieval_terms: pennylane 0.44.1 current release deprecations compatibility

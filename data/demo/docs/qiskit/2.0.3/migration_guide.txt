@@ -1,0 +1,3 @@
+source_url: https://quantum.cloud.ibm.com/docs/en/guides/qiskit-2.0
+summary: Qiskit 2.0 is a major version and breaks compatibility with previous versions of Qiskit, though unlike 1.0 it does not change the packaging structure.
+retrieval_terms: qiskit 2.0 breaks compatibility major version migration

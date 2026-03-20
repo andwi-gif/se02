@@ -1,0 +1,3 @@
+source_url: https://pennylane.ai/blog/2024/03/pennylane-release-0.35/
+summary: PennyLane 0.35 removed qml.ExpvalCost. Users should use qml.expval() moving forward.
+retrieval_terms: pennylane 0.35 qml.ExpvalCost removed qml.expval migration cost function

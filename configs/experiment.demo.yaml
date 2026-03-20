@@ -1,0 +1,29 @@
+run_name: demo_quantum_api_drift
+mode: demo
+benchmark_files:
+  - data/demo/tasks/qiskit_humaneval_demo.jsonl
+  - data/demo/tasks/qcircuitbench_demo.jsonl
+sdk_versions:
+  qiskit: ["0.45.3", "1.0.2", "2.0.3"]
+  pennylane: ["0.32.0", "0.35.1", "0.44.1"]
+models:
+  - name: gpt-5
+    provider: openai
+    family: proprietary
+    enabled: true
+  - name: Qwen/Qwen2.5-Coder-32B-Instruct
+    provider: openai_compatible
+    family: open_source
+    enabled: true
+strategies: ["vanilla", "rag_docs", "rewrite_baseline"]
+k_samples: 3
+isolation_backend: mock
+docs_root: data/demo/docs
+rewrite_rules_path: configs/rewrite_rules.yaml
+outputs_root: outputs
+figures:
+  exec_plot: exec_at_1_by_eval_version.png
+  pass_plot: pass_at_1_by_eval_version.png
+  drift_plot: drift_break_rate_heatmap.png
+  rag_plot: rag_gain.png
+  error_plot: error_taxonomy.png

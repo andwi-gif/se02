@@ -1,0 +1,3 @@
+source_url: https://quantum.cloud.ibm.com/docs/en/guides/qiskit-1.0
+summary: Qiskit 1.0 breaks compatibility with all previous versions of Qiskit and introduces a new packaging structure.
+retrieval_terms: qiskit 1.0 breaks compatibility previous versions packaging structure
